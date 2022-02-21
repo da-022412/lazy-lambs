@@ -1,4 +1,4 @@
-import buttonStyles from './Button.module.scss';
+import buttonStyles from './PrimaryButton.module.scss';
 
 const PrimaryButton = ({ children }) => {
     return <div className={`${buttonStyles['primary-btn']}`}>{children}</div>;

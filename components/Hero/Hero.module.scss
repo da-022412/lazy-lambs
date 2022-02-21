@@ -1,0 +1,29 @@
+.hero-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: -1.5% auto;
+    max-width: 90%;
+    width: 1200px;
+}
+
+.heading-container {
+    margin-right: 1.75rem;
+    width: 50%;
+}
+
+.heading-1 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.hero-img {
+    img {
+        border-radius: 50%;
+        max-width: 100%;
+        width: 100%;
+    }
+}

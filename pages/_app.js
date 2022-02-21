@@ -17,44 +17,8 @@ function MyApp({ Component, pageProps }) {
                     scroll-behavior: smooth;
                 }
 
-                @font-face {
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 400;
-                    src: url('../../assets/fonts/WorkSans-Regular.ttf')
-                        format('truetype');
-                }
-
-                @font-face {
-                    font-family: 'Work Sans';
-                    font-style: italic;
-                    font-weight: 500;
-                    src: url('../../assets/fonts/WorkSans-MediumItalic.ttf')
-                        format('truetype');
-                }
-
-                @font-face {
-                    font-family: 'Work Sans';
-                    font-style: italic;
-                    font-weight: 600;
-                    src: url('../../assets/fonts/WorkSans-SemiBoldItalic.ttf')
-                        format('truetype');
-                }
-
-                @font-face {
-                    font-family: 'Work Sans';
-                    font-style: normal;
-                    font-weight: 700;
-                    src: url('../../assets/fonts/WorkSans-Bold.ttf')
-                        format('truetype');
-                }
-
-                @font-face {
-                    font-family: 'Work Sans';
-                    font-style: italic;
-                    font-weight: 800;
-                    src: url('../../assets/fonts/WorkSans-ExtraBoldItalic.ttf')
-                        format('truetype');
+                a {
+                    text-decoration: none;
                 }
             `}</style>
             <Head>
@@ -85,6 +49,16 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta name='msapplication-TileColor' content='#da532c' />
                 <meta name='theme-color' content='#ffffff' />
+                <link rel='preconnect' href='https://fonts.googleapis.com' />
+                <link
+                    rel='preconnect'
+                    href='https://fonts.gstatic.com'
+                    crossorigin
+                />
+                <link
+                    href='https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,800&display=swap'
+                    rel='stylesheet'
+                />
             </Head>
             <Layout>
                 <Component {...pageProps} />

@@ -5,6 +5,58 @@ import Layout from '../components/Layout';
 function MyApp({ Component, pageProps }) {
     return (
         <>
+            <style global jsx>{`
+                body,
+                html {
+                    background-color: #000;
+                    margin: 0;
+                    max-width: 100vw;
+                    min-height: 100vh;
+                    overflow-x: hidden;
+                    padding: 0;
+                    scroll-behavior: smooth;
+                }
+
+                @font-face {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    src: url('../../assets/fonts/WorkSans-Regular.ttf')
+                        format('truetype');
+                }
+
+                @font-face {
+                    font-family: 'Work Sans';
+                    font-style: italic;
+                    font-weight: 500;
+                    src: url('../../assets/fonts/WorkSans-MediumItalic.ttf')
+                        format('truetype');
+                }
+
+                @font-face {
+                    font-family: 'Work Sans';
+                    font-style: italic;
+                    font-weight: 600;
+                    src: url('../../assets/fonts/WorkSans-SemiBoldItalic.ttf')
+                        format('truetype');
+                }
+
+                @font-face {
+                    font-family: 'Work Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    src: url('../../assets/fonts/WorkSans-Bold.ttf')
+                        format('truetype');
+                }
+
+                @font-face {
+                    font-family: 'Work Sans';
+                    font-style: italic;
+                    font-weight: 800;
+                    src: url('../../assets/fonts/WorkSans-ExtraBoldItalic.ttf')
+                        format('truetype');
+                }
+            `}</style>
             <Head>
                 <title>Lazy Lambs</title>
                 <meta name='description' content='Lazy Lambs' />

@@ -1,5 +1,4 @@
 import { useState, useCallback, useEffect } from 'react';
-import Head from 'next/head';
 
 import Header from './Header';
 import MobileHeader from './MobileHeader';
@@ -31,38 +30,11 @@ const useMediaQuery = (width) => {
     return targetReached;
 };
 
-const links = [
-    {
-        id: 0,
-        title: 'Club',
-        slug: '#club',
-    },
-    {
-        id: 1,
-        title: 'Roadmap',
-        slug: '#roadmap',
-    },
-    {
-        id: 2,
-        title: 'Team',
-        slug: '#team',
-    },
-    {
-        id: 3,
-        title: 'FAQ',
-        slug: '#faq',
-    },
-];
-
 const Layout = ({ children }) => {
     const isBreakpoint = useMediaQuery(980);
     return (
         <>
-            {isBreakpoint ? (
-                <MobileHeader links={links} />
-            ) : (
-                <Header links={links} />
-            )}
+            {isBreakpoint ? <MobileHeader /> : <Header />}
             <>{children}</>
             <Footer />
         </>

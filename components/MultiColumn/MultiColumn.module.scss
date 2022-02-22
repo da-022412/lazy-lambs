@@ -1,0 +1,16 @@
+.column-container {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 90%;
+    width: 1200px;
+}
+
+.column-content {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-info {
+    width: calc(33.333% - 2.5rem);
+}

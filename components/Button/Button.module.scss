@@ -2,13 +2,37 @@
     background-color: #ffea0e;
     border-radius: 50px;
     color: #000;
+    display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-style: italic;
     font-weight: 500;
+    min-width: 200px;
     padding: .75rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
     transition: all 0.3s ease;
 
     &:hover {
         background-color: lighten(#ffea0e, 15%);
+    }
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    min-width: 200px;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: lighten(#000, 10%);
     }
 }

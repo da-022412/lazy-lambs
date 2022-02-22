@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import Heading from '../Heading';
 import BodyText from '../BodyText';
+import Button from '../Button';
 
 import heroStyles from './Hero.module.scss';
 
@@ -19,6 +20,20 @@ const Hero = () => {
                     membership is purchased through an NFT and owned by the
                     token-holders.
                 </BodyText>
+                <div className={`${heroStyles['hero-btns']}`}>
+                    <div className={`${heroStyles['btn-container']}`}>
+                        <a href='#'>
+                            <Button style='primary-btn'>Become a Member</Button>
+                        </a>
+                    </div>
+                    <div className={`${heroStyles['btn-container']}`}>
+                        <a href='#'>
+                            <Button style='secondary-btn'>
+                                Join the Discord
+                            </Button>
+                        </a>
+                    </div>
+                </div>
             </div>
             <figure className={`${heroStyles['hero-img']}`}>
                 <Image src={heroImg} height='600' width='600' />

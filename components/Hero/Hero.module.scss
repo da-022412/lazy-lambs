@@ -1,5 +1,6 @@
 .hero-section {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin: -1.5% auto;
@@ -8,8 +9,14 @@
 }
 
 .heading-container {
-    margin-right: 1.75rem;
+    padding-right: 1.75rem;
     width: 50%;
+}
+
+.hero-btns {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
 }
 
 .hero-img {

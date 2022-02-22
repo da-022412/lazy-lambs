@@ -18,6 +18,10 @@ export default function Home() {
             <Divider />
             <Columns content={game} />
             <Divider />
+            <Columns content={lambs} />
+            <Divider />
+            <Columns content={charity} />
+            <Divider />
         </>
     );
 }
@@ -88,5 +92,45 @@ const game = {
     ],
     btn: 'Become a Member',
     link: '#',
+    img: PlaceHolder,
+};
+
+const lambs = {
+    title: 'The Lambs',
+    copy: [
+        {
+            p: 'In addition to the membership benefits, Each Lazy Lamb NFT also includes a unique digital collectible, officially owned by the token holder. Each Lamb artwork is unique, and no two are the same (And some are very, very special...) The collection includes 10,000 unique collectibles with multiple traits, including different supercar models, colors, accessories, expressions, clothing, and much more.',
+        },
+        {
+            p: 'The complete collection is stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. View our provenance record.',
+        },
+    ],
+    img: PlaceHolder,
+};
+
+const charity = {
+    title: 'Charity',
+    copy: [
+        {
+            p: 'We’re not just fun and lifestyle. At Lazy Lamb, we’re also committed to giving back something positive, and doing our part to help take care of others.',
+        },
+        {
+            p: '<b>As part of our roadmap, we will donate:</b>',
+        },
+        {
+            p: '<b>Ride2Revive</b> is a non-profit organization that has helped and inspired hundreds of children battling life-threatening illnesses for over ten years by giving them a once-in-a-lifetime exhilarating race car experience, bringing miles of smiles to the kids and their families.',
+        },
+        {
+            p: '<b>Ride2Revive</b> benefits children from various hospitals and organizations, including Joe DiMaggio Children’s Hospital, Holtz Children’s Hospital, Nicklaus Children’s Hospital, and more. To learn more about their work and mission, visit ride2revive.org.',
+        },
+    ],
+    list: [
+        {
+            li: '$200,000 to Ride2Revive upon hitting 20% of our roadmap ',
+        },
+        {
+            li: '$600,000 to a non-profit organization selected by majority vote from our members upon hitting 60% of our roadmap ',
+        },
+    ],
     img: PlaceHolder,
 };

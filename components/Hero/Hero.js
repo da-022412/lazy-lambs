@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import Heading from '../Heading';
 import BodyText from '../BodyText';
 
 import heroStyles from './Hero.module.scss';
@@ -10,9 +11,9 @@ const Hero = () => {
     return (
         <section className={`${heroStyles['hero-section']}`}>
             <div className={`${heroStyles['heading-container']}`}>
-                <h1 className={`${heroStyles['heading-1']}`}>
+                <Heading style='heading-1' level='1'>
                     The World’s First NFT Car Club & Marketplace
-                </h1>
+                </Heading>
                 <BodyText>
                     Lazy Lamb is the first luxury and exotic car club where
                     membership is purchased through an NFT and owned by the

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import headerStyles from './Header.module.scss';
 
 import Nav from '../Nav';
-import PrimaryButton from '../PrimaryButton';
+import Button from '../Button';
 
 import Logo from '../../assets/images/logo.svg';
 
@@ -22,7 +22,7 @@ const Header = () => {
                 <Nav />
                 <div className={`${headerStyles['btn-container']}`}>
                     <a href='#'>
-                        <PrimaryButton>Become a Member</PrimaryButton>
+                        <Button style='primary-btn'>Become a Member</Button>
                     </a>
                 </div>
             </div>

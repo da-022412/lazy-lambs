@@ -10,7 +10,7 @@ import heroImg from '../../assets/images/lazy-lamb-purple-lambo.webp';
 
 const Hero = () => {
     return (
-        <section className={`${heroStyles['hero-section']}`}>
+        <section>
             <div className={`${heroStyles['hero-container']}`}>
                 <div className={`${heroStyles['heading-container']}`}>
                     <Heading style='heading-1' level='1'>

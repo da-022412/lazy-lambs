@@ -31,7 +31,7 @@ const images = [
 
 const Information = () => {
     return (
-        <section className={`${infoStyles['info-section']}`}>
+        <section>
             <div className={`${infoStyles['info-container']}`}>
                 <div className={`${infoStyles['info-imgs']}`}>
                     {images.map((img) => (

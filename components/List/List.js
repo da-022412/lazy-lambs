@@ -1,9 +1,9 @@
 import listStyles from './List.module.scss';
 
-const List = ({ children }) => {
+const List = ({ content }) => {
     return (
-        <ul className={listStyles.list}>
-            {children.map((x, y) => {
+        <ul>
+            {content.map((x, y) => {
                 <li className={`${listStyles['list-item']}`} key={y}>
                     {x.li}
                 </li>;

@@ -5,7 +5,7 @@ import BodyText from '../BodyText';
 
 const MultiColumn = ({ content }) => {
     return (
-        <section className={`${columnsStyles['columns-section']}`}>
+        <section>
             <div className={`${columnsStyles['columns-container']}`}>
                 <Heading style='heading-2' level='2'>
                     {content.title}

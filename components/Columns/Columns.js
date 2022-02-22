@@ -10,7 +10,7 @@ import Button from '../Button';
 const Columns = ({ content }) => {
     console.log(content.copy);
     return (
-        <section className={`${columnsStyles['column-section']}`}>
+        <section>
             <div className={`${columnsStyles['columns-container']}`}>
                 <Heading style='heading-2' level='2'>
                     {content.title}
@@ -27,7 +27,7 @@ const Columns = ({ content }) => {
                                   <BodyText key={y}>{x.p}</BodyText>
                               ))
                             : null}
-                        {content.list ? <List>{content.list}</List> : null}
+                        {content.list ? <List content={content.list} /> : null}
                         {content.btn ? (
                             <Button style='primary-btn' link={content.link}>
                                 {content.btn}

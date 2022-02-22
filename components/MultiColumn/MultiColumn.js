@@ -5,16 +5,16 @@ import BodyText from '../BodyText';
 
 const MultiColumn = ({ content }) => {
     return (
-        <section className={`${columnsStyles['column-section']}`}>
-            <div className={`${columnsStyles['column-container']}`}>
+        <section className={`${columnsStyles['columns-section']}`}>
+            <div className={`${columnsStyles['columns-container']}`}>
                 <Heading style='heading-2' level='2'>
                     {content.title}
                 </Heading>
-                <div className={`${columnsStyles['column-content']}`}>
-                    {content.content.map((x) => (
+                <div className={`${columnsStyles['columns']}`}>
+                    {content.content.map((x, y) => (
                         <div
-                            className={`${columnsStyles['column-info']}`}
-                            key={x.id}
+                            className={`${columnsStyles['column-content']}`}
+                            key={y}
                         >
                             <Heading style='heading-4' level='4'>
                                 {x.heading}

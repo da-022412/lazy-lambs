@@ -22,20 +22,12 @@ const Hero = () => {
                         token-holders.
                     </BodyText>
                     <div className={`${heroStyles['hero-btns']}`}>
-                        <div className={`${heroStyles['btn-container']}`}>
-                            <a href='#'>
-                                <Button style='primary-btn'>
-                                    Become a Member
-                                </Button>
-                            </a>
-                        </div>
-                        <div className={`${heroStyles['btn-container']}`}>
-                            <a href='#'>
-                                <Button style='secondary-btn'>
-                                    Join the Discord
-                                </Button>
-                            </a>
-                        </div>
+                        <Button style='primary-btn' link='#'>
+                            Become a Member
+                        </Button>
+                        <Button style='secondary-btn' link='#'>
+                            Join the Discord
+                        </Button>
                     </div>
                 </div>
                 <figure className={`${heroStyles['hero-img']}`}>

@@ -20,11 +20,9 @@ const Header = () => {
                     </Link>
                 </figure>
                 <Nav />
-                <div className={`${headerStyles['btn-container']}`}>
-                    <a href='#'>
-                        <Button style='primary-btn'>Become a Member</Button>
-                    </a>
-                </div>
+                <Button style='primary-btn' link='#'>
+                    Become a Member
+                </Button>
             </div>
         </header>
     );

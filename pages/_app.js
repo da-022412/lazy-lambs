@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import '../assets/styles/reset.css';
+
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {

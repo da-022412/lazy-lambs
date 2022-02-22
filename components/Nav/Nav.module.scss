@@ -1,11 +1,11 @@
 .nav {
     align-items: center;
     display: flex;
+    gap: 2.5rem;
 }
 
 .link-container {
     box-sizing: border-box;
-    margin-right: 2.5rem;
 
     &::after {
         background-color: #fff;
@@ -18,10 +18,6 @@
 
     &:hover::after {
         width: 100%;
-    }
-
-    &:last-of-type {
-        margin-right: 0;
     }
 
     a {

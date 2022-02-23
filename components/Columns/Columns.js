@@ -8,7 +8,6 @@ import List from '../List';
 import Button from '../Button';
 
 const Columns = ({ content }) => {
-    console.log(content.copy);
     return (
         <section>
             <div className={`${columnsStyles['columns-container']}`}>

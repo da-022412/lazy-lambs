@@ -5,10 +5,10 @@ import BodyText from '../BodyText';
 
 import infoStyles from './Info.module.scss';
 
-import imgOne from '../../assets/images/lazy-lamb-black-lambo.webp';
-import imgTwo from '../../assets/images/lazy-lamb-green-lambo.webp';
-import imgThree from '../../assets/images/lazy-lamb-purple-lambo.webp';
-import imgFour from '../../assets/images/lazy-lamb-red-lambo.webp';
+import imgOne from '../../assets/images/lazy-lambo-trippy.webp';
+import imgTwo from '../../assets/images/lazy-lamb-purple-shades.webp';
+import imgThree from '../../assets/images/lazy-lambs-gold.webp';
+import imgFour from '../../assets/images/lazy-lamb-lambo-green.webp';
 
 const images = [
     {

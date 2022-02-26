@@ -6,7 +6,7 @@ import Button from '../Button';
 
 import heroStyles from './Hero.module.scss';
 
-import heroImg from '../../assets/images/lazy-lamb-purple-lambo.webp';
+import heroImg from '../../assets/images/lazy-lamb-red-purple.webp';
 
 const Hero = () => {
     return (
@@ -16,11 +16,6 @@ const Hero = () => {
                     <Heading style='heading-1' level='1'>
                         The World’s First NFT Car Club & Marketplace
                     </Heading>
-                    <BodyText>
-                        Lazy Lamb is the first luxury and exotic car club where
-                        membership is purchased through an NFT and owned by the
-                        token-holders.
-                    </BodyText>
                     <div className={`${heroStyles['hero-btns']}`}>
                         <Button style='primary-btn' link='#'>
                             Become a Member

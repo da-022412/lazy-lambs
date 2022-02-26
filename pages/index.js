@@ -5,6 +5,9 @@ import MultiColumn from '../components/MultiColumn';
 import Columns from '../components/Columns';
 
 import PlaceHolder from '../assets/images/lazy-lamb-black-lambo.webp';
+import MarketplaceImg from '../assets/images/lazylamb_marketplace.webp';
+import GameImg from '../assets/images/lazylamb_game.webp';
+import CharityImg from '../assets/images/R2R-Header-logo 1.webp';
 
 export default function Home() {
     return (
@@ -48,19 +51,19 @@ const marketplace = {
     title: 'The Marketplace',
     copy: [
         {
-            p: 'Our vision is to open the first NFT marketplace where anyone can buy, sell, or trade digital vehicles in a fully immersive and interactive 3D environment. All transactions are recorded in the Ethereum blockchain using smart contracts to verify and manage the ownership and history of the items.',
+            text: 'Our vision is to open the first NFT marketplace where anyone can buy, sell, or trade digital vehicles in a fully immersive and interactive 3D environment. All transactions are recorded in the Ethereum blockchain using smart contracts to verify and manage the ownership and history of the items.',
         },
         {
-            p: 'The project is also designed with sustainability and long-term utility. 50% of the profits from every item sold in the marketplace will be stored on a locked, secure wallet, that will be used as an expansion fund guided by the community.',
+            text: 'The project is also designed with sustainability and long-term utility. 50% of the profits from every item sold in the marketplace will be stored on a locked, secure wallet, that will be used as an expansion fund guided by the community.',
         },
         {
-            p: 'For the token holder, our goal is to build a utilitarian project that is fun, original, but also valuable, with the potential of creating equity over time.',
+            text: 'For the token holder, our goal is to build a utilitarian project that is fun, original, but also valuable, with the potential of creating equity over time.',
         },
         {
-            p: 'Join us in this unique opportunity to make history and disrupt an industry.',
+            text: 'Join us in this unique opportunity to make history and disrupt an industry.',
         },
     ],
-    img: PlaceHolder,
+    img: MarketplaceImg,
 };
 
 const game = {
@@ -92,17 +95,17 @@ const game = {
     ],
     btn: 'Become a Member',
     link: '#',
-    img: PlaceHolder,
+    img: GameImg,
 };
 
 const lambs = {
     title: 'The Lambs',
     copy: [
         {
-            p: 'In addition to the membership benefits, Each Lazy Lamb NFT also includes a unique digital collectible, officially owned by the token holder. Each Lamb artwork is unique, and no two are the same (And some are very, very special...) The collection includes 10,000 unique collectibles with multiple traits, including different supercar models, colors, accessories, expressions, clothing, and much more.',
+            text: 'In addition to the membership benefits, Each Lazy Lamb NFT also includes a unique digital collectible, officially owned by the token holder. Each Lamb artwork is unique, and no two are the same (And some are very, very special...) The collection includes 10,000 unique collectibles with multiple traits, including different supercar models, colors, accessories, expressions, clothing, and much more.',
         },
         {
-            p: 'The complete collection is stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a href="#">View our provenance record.</a>',
+            text: 'The complete collection is stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a href="#">View our provenance record.</a>',
         },
     ],
     img: PlaceHolder,
@@ -112,17 +115,17 @@ const charity = {
     title: 'Charity',
     copy: [
         {
-            p: 'We’re not just fun and lifestyle. At Lazy Lamb, we’re also committed to giving back something positive, and doing our part to help take care of others.',
+            text: 'We’re not just fun and lifestyle. At Lazy Lamb, we’re also committed to giving back something positive, and doing our part to help take care of others.',
         },
         {
-            p: '<b>As part of our roadmap, we will donate:</b><br><br><ul><li><span style="color:#ffea0e">$200,000</span> to Ride2Revive upon hitting 20% of our roadmap</li><li><span style="color:#ffea0e">$600,000</span> to a non-profit organization selected by majority vote from our members upon hitting 60% of our roadmap</li></ul>',
+            text: '<b>As part of our roadmap, we will donate:</b><br><br><ul><li><span style="color:#ffea0e">$200,000</span> to Ride2Revive upon hitting 20% of our roadmap</li><li><span style="color:#ffea0e">$600,000</span> to a non-profit organization selected by majority vote from our members upon hitting 60% of our roadmap</li></ul>',
         },
         {
-            p: '<b>Ride2Revive</b> is a non-profit organization that has helped and inspired hundreds of children battling life-threatening illnesses for over ten years by giving them a once-in-a-lifetime exhilarating race car experience, bringing miles of smiles to the kids and their families.',
+            text: '<b>Ride2Revive</b> is a non-profit organization that has helped and inspired hundreds of children battling life-threatening illnesses for over ten years by giving them a once-in-a-lifetime exhilarating race car experience, bringing miles of smiles to the kids and their families.',
         },
         {
-            p: '<b>Ride2Revive</b> benefits children from various hospitals and organizations, including Joe DiMaggio Children’s Hospital, Holtz Children’s Hospital, Nicklaus Children’s Hospital, and more. To learn more about their work and mission, visit ride2revive.org.',
+            text: '<b>Ride2Revive</b> benefits children from various hospitals and organizations, including Joe DiMaggio Children’s Hospital, Holtz Children’s Hospital, Nicklaus Children’s Hospital, and more. To learn more about their work and mission, visit ride2revive.org.',
         },
     ],
-    img: PlaceHolder,
+    img: CharityImg,
 };

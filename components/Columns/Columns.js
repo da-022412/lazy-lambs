@@ -22,8 +22,8 @@ const Columns = ({ content }) => {
                             </Heading>
                         ) : null}
                         {content.copy
-                            ? content.copy.map((x, y) => (
-                                  <BodyText key={y}>{x.p}</BodyText>
+                            ? content.copy.map(({ text }, y) => (
+                                  <BodyText key={y}>{text}</BodyText>
                               ))
                             : null}
                         {content.list ? <List content={content.list} /> : null}

@@ -6,11 +6,13 @@ import Button from '../Button';
 
 import heroStyles from './Hero.module.scss';
 
+import Container from '../Container';
+
 import heroImg from '../../assets/images/lazy-lamb-red-purple.webp';
 
 const Hero = () => {
     return (
-        <section>
+        <Container>
             <div className={`${heroStyles['hero-container']}`}>
                 <div className={`${heroStyles['heading-container']}`}>
                     <Heading style='heading-1' level='1'>
@@ -29,7 +31,7 @@ const Hero = () => {
                     <Image src={heroImg} height='600' width='600' />
                 </figure>
             </div>
-        </section>
+        </Container>
     );
 };
 

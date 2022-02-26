@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import Container from '../Container';
 import Heading from '../Heading';
 import BodyText from '../BodyText';
 
@@ -31,7 +32,7 @@ const images = [
 
 const Information = () => {
     return (
-        <section>
+        <Container>
             <div className={`${infoStyles['info-container']}`}>
                 <div className={`${infoStyles['info-imgs']}`}>
                     {images.map((img) => (
@@ -63,7 +64,7 @@ const Information = () => {
                     </BodyText>
                 </div>
             </div>
-        </section>
+        </Container>
     );
 };
 

@@ -1,12 +1,19 @@
+import Image from 'next/image';
+
 import columnsStyles from './MultiColumn.module.scss';
 
 import Heading from '../Heading';
 import BodyText from '../BodyText';
 
+import Banner from '../../assets/images/banner.webp';
+
 const MultiColumn = ({ content }) => {
     return (
         <section>
             <div className={`${columnsStyles['columns-container']}`}>
+                <figure className={`${columnsStyles['columns-banner']}`}>
+                    <Image src={Banner} width={1180} height={320} />
+                </figure>
                 <Heading style='heading-2' level='2'>
                     {content.title}
                 </Heading>

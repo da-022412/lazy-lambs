@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 import Heading from '../Heading';
-import BodyText from '../BodyText';
 import Button from '../Button';
 
 import heroStyles from './Hero.module.scss';

@@ -4,6 +4,7 @@ import Divider from '../components/Divider';
 import MultiColumn from '../components/MultiColumn';
 import Columns from '../components/Columns';
 import Lambo from '../components/Lambo';
+import RoadMap from '../components/RoadMap';
 import Team from '../components/Team';
 
 import PlaceHolder from '../assets/images/lazy-lamb-black-lambo.webp';
@@ -29,6 +30,8 @@ export default function Home() {
             <Lambo />
             <Divider />
             <Columns content={charity} />
+            <Divider />
+            <RoadMap />
             <Divider />
             <Team />
             <Divider />

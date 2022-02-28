@@ -1,0 +1,12 @@
+.roadmap-columns {
+    align-items: center;
+    display: flex;
+
+    div:first-child {
+        width: 40%;
+    }
+
+    div:last-child {
+        width: 60%;
+    }
+}

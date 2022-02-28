@@ -5,7 +5,7 @@ const List = ({ content }) => {
         <ul className={listStyles.list}>
             {content.map((x, y) => (
                 <li className={`${listStyles['list-item']}`} key={y}>
-                    {x.li}
+                    {x.item}
                 </li>
             ))}
         </ul>

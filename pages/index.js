@@ -9,6 +9,7 @@ import PlaceHolder from '../assets/images/lazy-lamb-black-lambo.webp';
 import MarketplaceImg from '../assets/images/lazylamb_marketplace.webp';
 import GameImg from '../assets/images/lazylamb_game.webp';
 import CharityImg from '../assets/images/R2R-Header-logo 1.webp';
+import WhyImg from '../assets/images/checkered-flag.webp';
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
             <Divider />
             <Team />
             <Divider />
+            <Columns content={why} />
         </>
     );
 }
@@ -75,25 +77,25 @@ const game = {
         'Live out your dreams of racing exotic vehicles for real prizes on our play-to-earn (P2E) racing game. Race your own NFT supercar against other members to earn rewards.',
     list: [
         {
-            li: 'Buy, sell and trade digital vehicles from the marketplace',
+            item: 'Buy, sell and trade digital vehicles from the marketplace',
         },
         {
-            li: 'Race other members for fun or compete for real prizes',
+            item: 'Race other members for fun or compete for real prizes',
         },
         {
-            li: 'Your starter vehicle is the same car from your Lazy Lamb artwork',
+            item: 'Your starter vehicle is the same car from your Lazy Lamb artwork',
         },
         {
-            li: 'Take your machine for a test drive on the virtual track',
+            item: 'Take your machine for a test drive on the virtual track',
         },
         {
-            li: 'View and manage your collection in your personal VR garage',
+            item: 'View and manage your collection in your personal VR garage',
         },
         {
-            li: 'Join virtual car meets and hangouts',
+            item: 'Join virtual car meets and hangouts',
         },
         {
-            li: 'Complete daily challenges to earn rewards',
+            item: 'Complete daily challenges to earn rewards',
         },
     ],
     btn: 'Become a Member',
@@ -131,4 +133,17 @@ const charity = {
         },
     ],
     img: CharityImg,
+};
+
+const why = {
+    title: 'Why Lazy Lamb NFTs?',
+    subTitle: 'As an NFT, your Lazy Lamb membership becomes an asset.',
+    copy: [
+        {
+            text: 'Your token can be sold or transferred to others at any time. The NFT structure creates a unique new opportunity to try alternative economic models, which will allow us to create a loyal, engaged member community, delivering exceptional and sustainable experiences for our members for the many years to come.',
+        },
+    ],
+    btn: 'Become a Member',
+    link: '#',
+    img: WhyImg,
 };

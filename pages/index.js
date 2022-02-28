@@ -3,6 +3,7 @@ import Information from '../components/Information';
 import Divider from '../components/Divider';
 import MultiColumn from '../components/MultiColumn';
 import Columns from '../components/Columns';
+import Lambo from '../components/Lambo';
 import Team from '../components/Team';
 
 import PlaceHolder from '../assets/images/lazy-lamb-black-lambo.webp';
@@ -24,6 +25,8 @@ export default function Home() {
             <Columns content={game} />
             <Divider />
             <Columns content={lambs} />
+            <Divider />
+            <Lambo />
             <Divider />
             <Columns content={charity} />
             <Divider />

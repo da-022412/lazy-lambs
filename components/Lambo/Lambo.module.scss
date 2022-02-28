@@ -1,0 +1,12 @@
+.lambo-columns {
+    align-items: center;
+    background-color: #171717;
+    display: flex;
+    gap: 3.125rem;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+
+    div {
+        width: 50%;
+    }
+}

@@ -52,7 +52,7 @@ const Team = () => {
                                 className={`${teamStyles['brand-img']}`}
                                 alt='Profile Pic'
                             />
-                            <Heading style='heading-5' level='5'>
+                            <Heading style='heading-6' level='6'>
                                 {title}
                             </Heading>
                         </div>

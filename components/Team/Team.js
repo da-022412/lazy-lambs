@@ -6,7 +6,11 @@ import Container from '../Container';
 import Heading from '../Heading';
 import BodyText from '../BodyText';
 
-import PlaceHolder from '../../assets/images/lazy-lamb-pfp.webp';
+import Grey from '../../assets/images/grey.webp';
+import Jeb from '../../assets/images/Jeb.webp';
+import SeanC from '../../assets/images/seanclayton.webp';
+import Electron from '../../assets/images/Electronshaper.webp';
+import Lenny from '../../assets/images/Lenny.webp';
 import YoungHero from '../../assets/images/logo_younghero.webp';
 import Atlas from '../../assets/images/logo_atlas.webp';
 import Myosin from '../../assets/images/myosin-logo.webp';
@@ -63,27 +67,27 @@ const team = [
     {
         title: 'Grey',
         text: 'The Dreamer',
-        img: PlaceHolder,
-    },
-    {
-        title: 'Daxxx',
-        text: 'The Car Guru',
-        img: PlaceHolder,
+        img: Grey,
     },
     {
         title: 'Sean C.',
         text: 'The Shaman',
-        img: PlaceHolder,
+        img: SeanC,
     },
     {
         title: 'Electronshaper',
         text: 'The Weaver',
-        img: PlaceHolder,
+        img: Electron,
+    },
+    {
+        title: 'JEB',
+        text: 'The Thinkerer',
+        img: Jeb,
     },
     {
         title: 'Lenny G.',
         text: 'The Pet Lamb',
-        img: PlaceHolder,
+        img: Lenny,
     },
 ];
 

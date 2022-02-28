@@ -7,6 +7,9 @@ import Heading from '../Heading';
 import BodyText from '../BodyText';
 
 import PlaceHolder from '../../assets/images/lazy-lamb-pfp.webp';
+import YoungHero from '../../assets/images/logo_younghero.webp';
+import Atlas from '../../assets/images/logo_atlas.webp';
+import Myosin from '../../assets/images/myosin-logo.webp';
 
 const Team = () => {
     return (
@@ -28,6 +31,27 @@ const Team = () => {
                             {title}
                         </Heading>
                         <BodyText>{text}</BodyText>
+                    </div>
+                ))}
+            </div>
+            <div className={`${teamStyles['brand-columns']}`}>
+                {brands.map(({ title, img, height, width }, index) => (
+                    <div
+                        className={`${teamStyles['brand-item-container']}`}
+                        key={index}
+                    >
+                        <div className={`${teamStyles['brand-item']}`}>
+                            <Image
+                                src={img}
+                                width={width}
+                                height={height}
+                                className={`${teamStyles['brand-img']}`}
+                                alt='Profile Pic'
+                            />
+                            <Heading style='heading-5' level='5'>
+                                {title}
+                            </Heading>
+                        </div>
                     </div>
                 ))}
             </div>
@@ -60,6 +84,27 @@ const team = [
         title: 'Lenny G.',
         text: 'The Pet Lamb',
         img: PlaceHolder,
+    },
+];
+
+const brands = [
+    {
+        img: YoungHero,
+        title: 'Artwork by YoungHero',
+        height: 21,
+        width: 304,
+    },
+    {
+        img: Atlas,
+        title: 'Smart-Contract by Atlas',
+        height: 44,
+        width: 261,
+    },
+    {
+        img: Myosin,
+        title: 'Utility Strategy + Website by Myosin',
+        height: 59,
+        width: 216,
     },
 ];
 

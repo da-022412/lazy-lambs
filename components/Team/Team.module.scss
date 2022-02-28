@@ -1,0 +1,35 @@
+.team-columns,
+.brand-columns {
+    align-items: center;
+    display: flex;
+    gap: 1.875rem;
+    justify-content: space-between;
+}
+
+.team-item {
+    text-align: center;
+}
+
+.team-img {
+    border-radius: 50%;
+}
+
+.brand-columns {
+    padding: 5rem 0;
+}
+
+.brand-item-container {
+    background-color: #171717;
+    min-height: 240px;
+    position: relative;
+    width: 33.333%;
+}
+
+.brand-item {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}

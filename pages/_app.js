@@ -61,6 +61,10 @@ function MyApp({ Component, pageProps }) {
                     href='https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,800&display=swap'
                     rel='stylesheet'
                 />
+                <script
+                    src='https://kit.fontawesome.com/0cddf94988.js'
+                    crossorigin='anonymous'
+                ></script>
             </Head>
             <Layout>
                 <Component {...pageProps} />

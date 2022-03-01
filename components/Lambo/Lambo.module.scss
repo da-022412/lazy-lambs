@@ -9,4 +9,13 @@
     div {
         width: 50%;
     }
+
+    @media(max-width: 767px) {
+        flex-wrap: wrap;
+        gap: .625;
+
+        div {
+            width: 100%;
+        }
+    }
 }

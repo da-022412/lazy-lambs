@@ -3,6 +3,10 @@
     display: flex;
     gap: 1.25rem;
     justify-content: space-between;
+
+    @media(max-width: 767px) {
+        flex-wrap: wrap;
+    }
 }
 
 .column-content {
@@ -12,5 +16,12 @@
 
     &:last-child {
         width: 40%;
+    }
+
+    @media(max-width: 767px) {
+        &:first-child,
+        &:last-child {
+            width: 100%;
+        }
     }
 }

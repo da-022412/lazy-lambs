@@ -4,4 +4,8 @@
     gap: .75rem;
     justify-content: flex-start;
     padding-bottom: 2rem;
+
+    @media(max-width:767px) {
+        justify-content: center;
+    }
 }

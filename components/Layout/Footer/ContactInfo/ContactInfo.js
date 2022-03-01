@@ -2,7 +2,7 @@ import contactStyles from './Contact.module.scss';
 
 import BodyText from '../../../BodyText';
 
-import SocialIcons from './SocialIcons';
+import SocialIcons from '../../../SocialIcons';
 
 const ContactInfo = () => {
     return (

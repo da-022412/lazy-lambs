@@ -6,8 +6,8 @@ import accordionStyles from './Accordion.module.scss';
 import Heading from '../../Heading';
 import BodyText from '../../BodyText';
 
-import More from '../../../assets/images/expand-more.png';
-import Less from '../../../assets/images/expand-less.png';
+import More from '../../../assets/images/expand-more.webp';
+import Less from '../../../assets/images/expand-less.webp';
 
 const AccordionItem = ({ title, copy }) => {
     const [isActive, setIsActive] = useState(false);

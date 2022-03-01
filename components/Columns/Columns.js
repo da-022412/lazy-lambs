@@ -22,8 +22,8 @@ const Columns = ({ items }) => {
                         </Heading>
                     ) : null}
                     {items.copy
-                        ? items.copy.map(({ text }, y) => (
-                              <BodyText key={y}>{text}</BodyText>
+                        ? items.copy.map(({ text }, index) => (
+                              <BodyText key={index}>{text}</BodyText>
                           ))
                         : null}
                     {items.list ? <List content={items.list} /> : null}

@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 import headerStyles from './Header.module.scss';
 
-import Nav from './Nav';
-import Button from '../Button';
+import Nav from '../Nav';
+import Button from '../../Button';
 
-import Logo from '../../assets/images/logo.svg';
+import Logo from '../../../assets/images/logo.svg';
 
 const Header = () => {
     return (

@@ -1,6 +1,6 @@
-export default Nav;
-
 import navStyles from './Nav.module.scss';
+
+import NavItems from './NavItems';
 
 const CONTENT = [
     {

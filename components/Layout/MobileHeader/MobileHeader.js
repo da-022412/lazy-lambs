@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import headerStyles from '../Header.module.scss';
+import headerStyles from '../Header/Header.module.scss';
 
 import MobileNav from '../MobileNav';
 

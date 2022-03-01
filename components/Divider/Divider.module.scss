@@ -4,4 +4,9 @@
     margin: 3.75rem auto;
     max-width: 90%;
     width: 1200px;
+
+    @media(max-width: 767px) {
+        background-color: #000;
+        margin: 1.875rem auto;
+    }
 }

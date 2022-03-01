@@ -4,6 +4,11 @@
     display: flex;
     gap: 1.875rem;
     justify-content: space-between;
+
+    @media(max-width: 767px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .team-item {
@@ -23,6 +28,10 @@
     min-height: 240px;
     position: relative;
     width: 33.333%;
+
+    @media(max-width: 767px) {
+        width: 100%;
+    }
 }
 
 .brand-item {

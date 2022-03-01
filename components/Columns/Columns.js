@@ -8,33 +8,33 @@ import BodyText from '../BodyText';
 import List from '../List';
 import Button from '../Button';
 
-const Columns = ({ content }) => {
+const Columns = ({ items }) => {
     return (
         <Container>
             <Heading style='heading-2' level='2'>
-                {content.title}
+                {items.title}
             </Heading>
             <div className={`${columnsStyles['columns']}`}>
                 <div className={`${columnsStyles['column-content']}`}>
-                    {content.subTitle ? (
+                    {items.subTitle ? (
                         <Heading style='heading-3' level='3'>
-                            {content.subTitle}
+                            {items.subTitle}
                         </Heading>
                     ) : null}
-                    {content.copy
-                        ? content.copy.map(({ text }, y) => (
+                    {items.copy
+                        ? items.copy.map(({ text }, y) => (
                               <BodyText key={y}>{text}</BodyText>
                           ))
                         : null}
-                    {content.list ? <List content={content.list} /> : null}
-                    {content.btn ? (
-                        <Button style='primary-btn' link={content.link}>
-                            {content.btn}
+                    {items.list ? <List content={items.list} /> : null}
+                    {items.btn ? (
+                        <Button style='primary-btn' link={items.link}>
+                            {items.btn}
                         </Button>
                     ) : null}
                 </div>
                 <div className={`${columnsStyles['column-content']}`}>
-                    <Image src={content.img} />
+                    <Image src={items.img} />
                 </div>
             </div>
         </Container>

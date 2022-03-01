@@ -1,15 +1,16 @@
 .columns {
     align-items: flex-start;
     display: flex;
+    gap: 1.25rem;
     justify-content: space-between;
 }
 
 .column-content {
     &:first-child {
-        width: calc(60% - 2.5rem);
+        width: 60%;
     }
 
     &:last-child {
-        width: calc(40% - 2.5rem);
+        width: 40%;
     }
 }

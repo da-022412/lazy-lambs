@@ -8,25 +8,25 @@ import BodyText from '../BodyText';
 
 import Banner from '../../assets/images/banner.webp';
 
-const MultiColumn = ({ content }) => {
+const MultiColumn = ({ items }) => {
     return (
         <Container>
             <figure className={`${columnsStyles['columns-banner']}`}>
                 <Image src={Banner} width={1180} height={320} />
             </figure>
             <Heading style='heading-2' level='2'>
-                {content.title}
+                {items.title}
             </Heading>
             <div className={`${columnsStyles['columns']}`}>
-                {content.content.map((x, y) => (
+                {items.content.map(({ heading, copy }, index) => (
                     <div
                         className={`${columnsStyles['column-content']}`}
-                        key={y}
+                        key={index}
                     >
                         <Heading style='heading-4' level='4'>
-                            {x.heading}
+                            {heading}
                         </Heading>
-                        <BodyText>{x.copy}</BodyText>
+                        <BodyText>{copy}</BodyText>
                     </div>
                 ))}
             </div>

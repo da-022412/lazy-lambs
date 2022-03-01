@@ -14,10 +14,22 @@
     :hover {
         cursor: pointer;
     }
+
+    @media(max-width: 767px) {
+        padding: 1.25rem;
+    }
 }
 
 .accordion-title {
     align-items: center;
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 767px) {
+        gap: 2rem;
+
+        *:first-child {
+            width: 90%;
+        }
+    }
 }

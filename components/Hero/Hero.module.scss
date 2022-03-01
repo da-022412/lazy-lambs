@@ -29,8 +29,11 @@
     display: flex;
     gap: 2rem;
 
-    @media(max-width:767px) {
+    @media(max-width: 980px) {
         flex-wrap: wrap;
+    }
+
+    @media(max-width:767px) {
         justify-content: center;
     }
 }

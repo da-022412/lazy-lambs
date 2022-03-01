@@ -1,0 +1,23 @@
+.accordion-item {
+    background-color: #171717;
+    margin-bottom: 1.25rem;
+    padding: 2rem 2.5rem;
+
+    h3 {
+        padding-bottom: 0;
+    }
+
+    p {
+        padding-top: 1.25rem;
+    }
+
+    :hover {
+        cursor: pointer;
+    }
+}
+
+.accordion-title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

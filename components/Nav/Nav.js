@@ -21,7 +21,7 @@ const links = [
     {
         id: 3,
         title: 'FAQ',
-        slug: '#faq',
+        slug: '/faqs',
     },
 ];
 

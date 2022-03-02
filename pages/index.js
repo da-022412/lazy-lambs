@@ -11,13 +11,17 @@ import RoadMap from '../components/RoadMap';
 import Team from '../components/Team';
 import Why from '../components/Why';
 
+import homeStyles from '../components/Hero/Hero.module.scss';
+
 export default function Home() {
     return (
-        <>
+        <main className={homeStyles.main}>
             <Hero />
             <Information />
             <Divider />
-            <Club />
+            <div id='club'>
+                <Club />
+            </div>
             <Divider />
             <Marketplace />
             <Divider />
@@ -29,11 +33,15 @@ export default function Home() {
             <Divider />
             <Charity />
             <Divider />
-            <RoadMap />
+            <div id='roadmap'>
+                <RoadMap />
+            </div>
             <Divider />
-            <Team />
+            <div id='team'>
+                <Team />
+            </div>
             <Divider />
             <Why />
-        </>
+        </main>
     );
 }

@@ -34,7 +34,7 @@ const Columns = ({ items }) => {
                     ) : null}
                 </div>
                 <div className={`${columnsStyles['column-content']}`}>
-                    <Image src={items.img} />
+                    <Image src={items.img} alt='Lazy Lambs NFT' />
                 </div>
             </div>
         </Container>

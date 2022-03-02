@@ -55,7 +55,7 @@ function MyApp({ Component, pageProps }) {
                 <link
                     rel='preconnect'
                     href='https://fonts.gstatic.com'
-                    crossorigin
+                    crossOrigin
                 />
                 <link
                     href='https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,800&display=swap'

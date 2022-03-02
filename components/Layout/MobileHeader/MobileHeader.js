@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import headerStyles from '../Header/Header.module.scss';
 
-import MobileNav from '../MobileNav';
+import MobileNav from './MobileNav';
 
 import Logo from '../../../assets/images/logo.svg';
 import Menu from '../../../assets/images/menu.webp';

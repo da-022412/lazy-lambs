@@ -1,9 +1,9 @@
 import navStyles from './MobileNav.module.scss';
 
 import MobileNavItems from './MobileNavItems';
-import Button from '../../Button';
-import SocialIcons from '../../SocialIcons';
-import BodyText from '../../BodyText';
+import Button from '../../../Button';
+import SocialIcons from '../../../SocialIcons';
+import BodyText from '../../../BodyText';
 
 const CONTENT = {
     links: [

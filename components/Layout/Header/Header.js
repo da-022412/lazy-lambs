@@ -15,7 +15,12 @@ const Header = () => {
                 <figure className={headerStyles.logo}>
                     <Link href='/'>
                         <a>
-                            <Image src={Logo} height='65' width='140' />
+                            <Image
+                                src={Logo}
+                                height='65'
+                                width='140'
+                                alt='Logo'
+                            />
                         </a>
                     </Link>
                 </figure>

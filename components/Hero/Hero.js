@@ -28,7 +28,12 @@ const Hero = () => {
                         </div>
                     </div>
                     <figure className={`${heroStyles['hero-img']}`}>
-                        <Image src={heroImg} height='600' width='600' />
+                        <Image
+                            src={heroImg}
+                            height='600'
+                            width='600'
+                            alt='Lazy Lambs NFT'
+                        />
                     </figure>
                 </div>
             </Container>

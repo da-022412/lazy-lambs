@@ -9,7 +9,7 @@ const Form = () => {
                 Get Updates
             </Heading>
             <form className={formStyles.form}>
-                <label htmlfor='submission' hidden>
+                <label htmlFor='submission' hidden>
                     Email
                 </label>
                 <input

@@ -40,6 +40,7 @@ const Information = () => {
                             src={img.img}
                             height={250}
                             width={250}
+                            alt='Lazy Lambs NFT'
                             key={img.id}
                         />
                     ))}

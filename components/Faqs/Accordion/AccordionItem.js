@@ -22,9 +22,9 @@ const AccordionItem = ({ title, copy }) => {
                     {title}
                 </Heading>
                 {isActive ? (
-                    <Image src={Less} height={24} width={24} />
+                    <Image src={Less} height={24} width={24} alt='Less' />
                 ) : (
-                    <Image src={More} height={24} width={24} />
+                    <Image src={More} height={24} width={24} alt='More' />
                 )}
             </div>
             {isActive && (

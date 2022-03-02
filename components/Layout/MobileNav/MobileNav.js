@@ -9,15 +9,15 @@ const CONTENT = {
     links: [
         {
             title: 'Club',
-            slug: '#club',
+            slug: '/#club',
         },
         {
             title: 'Roadmap',
-            slug: '#roadmap',
+            slug: '/#roadmap',
         },
         {
             title: 'Team',
-            slug: '#team',
+            slug: '/#team',
         },
         {
             title: 'FAQ',

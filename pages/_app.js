@@ -51,20 +51,10 @@ function MyApp({ Component, pageProps }) {
                 />
                 <meta name='msapplication-TileColor' content='#171717' />
                 <meta name='theme-color' content='#171717' />
-                <link rel='preconnect' href='https://fonts.googleapis.com' />
-                <link
-                    rel='preconnect'
-                    href='https://fonts.gstatic.com'
-                    crossOrigin
-                />
                 <link
                     href='https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500;1,800&display=swap'
                     rel='stylesheet'
                 />
-                <script
-                    src='https://kit.fontawesome.com/0cddf94988.js'
-                    crossOrigin='anonymous'
-                ></script>
             </Head>
             <Layout>
                 <Component {...pageProps} />

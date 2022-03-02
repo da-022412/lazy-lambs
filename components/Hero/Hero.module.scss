@@ -1,6 +1,6 @@
 .hero {
     @media(max-width: 767px) {
-        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('../../public/lazy-lamb-purple-lambo.webp') no-repeat top center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('/assets/images/lazy-lamb-purple-lambo.webp') no-repeat top center/cover;
         margin: auto;
         padding: 12.5rem 0 3.75rem;
         text-align: center;

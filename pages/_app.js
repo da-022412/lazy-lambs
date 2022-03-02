@@ -43,14 +43,14 @@ function MyApp({ Component, pageProps }) {
                     sizes='16x16'
                     href='/assets/favicon/favicon-16x16.png'
                 />
-                <link rel='manifest' href='/site.webmanifest' />
+                <link rel='manifest' href='/assets/favicon/site.webmanifest' />
                 <link
                     rel='mask-icon'
                     href='/assets/favicon/safari-pinned-tab.svg'
-                    color='#5bbad5'
+                    color='#171717'
                 />
-                <meta name='msapplication-TileColor' content='#da532c' />
-                <meta name='theme-color' content='#ffffff' />
+                <meta name='msapplication-TileColor' content='#171717' />
+                <meta name='theme-color' content='#171717' />
                 <link rel='preconnect' href='https://fonts.googleapis.com' />
                 <link
                     rel='preconnect'

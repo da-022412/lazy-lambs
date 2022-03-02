@@ -14,8 +14,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-T25GPNX');`,
                         }}
                     ></script>
-                    <title>Lazy Lambs</title>
-                    <meta name='description' content='Lazy Lambs' />
+                    <title>Lazy Lamb</title>
+                    <meta name='description' content='Lazy Lamb' />
                     <link
                         rel='apple-touch-icon'
                         sizes='180x180'

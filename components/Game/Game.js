@@ -5,7 +5,7 @@ import Img from '../../assets/images/lazylamb_game.webp';
 const CONTENT = {
     title: 'The Game',
     subTitle:
-        'Live out your dreams of racing exotic vehicles for real prizes on our play-to-earn (P2E) racing game. Race your own NFT supercar against other members to earn rewards.',
+        'Live out your dreams of racing exotic vehicles for real prizes on our play-to-earn (P2E) racing game. Race your own NFT supercar against other members to earn rewards. ',
     list: [
         {
             item: 'Buy, sell and trade digital vehicles from the marketplace',
@@ -17,10 +17,10 @@ const CONTENT = {
             item: 'Your starter vehicle is the same car from your Lazy Lamb artwork',
         },
         {
-            item: 'Take your machine for a test drive on the virtual track',
+            item: 'Take your machine for a test drive on the virtual track ',
         },
         {
-            item: 'View and manage your collection in your personal VR garage',
+            item: 'View and manage your collection in your personal garage',
         },
         {
             item: 'Join virtual car meets and hangouts',

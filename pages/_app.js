@@ -63,7 +63,7 @@ function MyApp({ Component, pageProps }) {
                 />
                 <script
                     src='https://kit.fontawesome.com/0cddf94988.js'
-                    crossorigin='anonymous'
+                    crossOrigin='anonymous'
                 ></script>
             </Head>
             <Layout>

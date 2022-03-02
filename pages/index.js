@@ -18,7 +18,6 @@ export default function Home() {
         <main className={homeStyles.main}>
             <Hero />
             <Information />
-            <Divider />
             <div id='club'>
                 <Club />
             </div>

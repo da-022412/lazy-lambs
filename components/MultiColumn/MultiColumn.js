@@ -12,7 +12,12 @@ const MultiColumn = ({ items }) => {
     return (
         <Container>
             <figure className={`${columnsStyles['columns-banner']}`}>
-                <Image src={Banner} width={1180} height={320} />
+                <Image
+                    src={Banner}
+                    width={1180}
+                    height={320}
+                    alt='Lazy Lambs Banner'
+                />
             </figure>
             <Heading style='heading-2' level='2'>
                 {items.title}

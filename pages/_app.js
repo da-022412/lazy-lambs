@@ -8,12 +8,9 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <style global jsx>{`
-                body,
-                html {
+                :root {
                     background-color: #000;
                     margin: 0;
-                    max-width: 100vw;
-                    min-height: 100vh;
                     overflow-x: hidden;
                     padding: 0;
                     scroll-behavior: smooth;

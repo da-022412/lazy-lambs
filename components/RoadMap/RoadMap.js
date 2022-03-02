@@ -15,8 +15,8 @@ const RoadMap = () => {
                     <figure className={`${roadmapStyles['sign-img']}`}>
                         <Image
                             src={Sign}
-                            height={869}
-                            width={550}
+                            height={921}
+                            width={678}
                             alt='Lambo Road Sign'
                         />
                     </figure>

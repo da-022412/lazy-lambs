@@ -47,15 +47,14 @@ const Information = () => {
                 </div>
                 <div className={`${infoStyles['info-content']}`}>
                     <Heading style='heading-3' level='3'>
+                        Lazy Lamb is the first luxury and exotic car club where
+                        membership is purchased through an NFT and owned by the
+                        token-holders.
+                    </Heading>
+                    <BodyText>
                         The project offers 10,000 limited non-fungible
                         membership tokens with proof of ownership stored on the
                         Ethereum blockchain.
-                    </Heading>
-                    <BodyText>
-                        Token ownership grants access to our private car club,
-                        with exclusive member-only benefits to experience the
-                        high-end automotive lifestyle, including the chance to
-                        win three real-life supercars!
                     </BodyText>
                     <BodyText>
                         Members can also visit our virtual marketplace to buy,
@@ -63,6 +62,7 @@ const Information = () => {
                         metaverse dealership, and experience them on a virtual
                         track.
                     </BodyText>
+                    <BodyText></BodyText>
                 </div>
             </div>
         </Container>

@@ -2,7 +2,7 @@ import { useForm, ValidationError } from '@formspree/react';
 
 import formStyles from './Form.module.scss';
 
-import BodyText from '../../BodyText';
+import BodyText from '../../../BodyText';
 import Heading from '../../../Heading';
 
 const Form = () => {

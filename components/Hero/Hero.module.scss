@@ -4,7 +4,7 @@
 
 .hero {
     @media(max-width: 767px) {
-        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('/assets/images/lazy-lamb-purple-lambo.webp') no-repeat top center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1)), url('/assets/images/lazy-lamb-red-purple.webp') no-repeat top center/cover;
         margin: auto;
         padding: 12.5rem 0 3.75rem;
         text-align: center;
@@ -12,15 +12,15 @@
 }
 
 .hero-container {
-    align-items: center;
+    align-items: flex-start;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    margin: -1.5% auto;
+    margin: -1.5% auto -10%;
 }
 
 .heading-container {
-    padding-right: 1.75rem;
+    padding: 10% 1.75rem 0 0;
     width: 50%;
 
     @media(max-width:767px) {

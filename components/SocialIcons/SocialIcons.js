@@ -29,7 +29,7 @@ const SocialIcons = () => {
 const CONTENT = [
     {
         img: Twitter,
-        link: '#',
+        link: 'https://twitter.com/',
     },
     {
         img: Discord,

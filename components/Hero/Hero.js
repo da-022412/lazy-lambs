@@ -19,10 +19,10 @@ const Hero = () => {
                             The World’s First NFT Car Club & Marketplace
                         </Heading>
                         <div className={`${heroStyles['hero-btns']}`}>
-                            <Button style='primary-btn' link='#'>
+                            <Button style='primary-btn' link='#' disabled>
                                 Become a Member
                             </Button>
-                            <Button style='secondary-btn' link='#'>
+                            <Button style='secondary-btn' link='https://discord.gg/yYrQd6dzTD'>
                                 Join the Discord
                             </Button>
                         </div>

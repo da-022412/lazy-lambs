@@ -10,9 +10,16 @@ import Instagram from '../../assets/images/instagram.png';
 const SocialIcons = () => {
     return (
         <div className={`${socialStyles['icons-container']}`}>
-            {CONTENT.map(({ img }, y) => (
-                <div className={`${socialStyles.icon}`} key={y}>
-                    <Image src={img} height={24} width={24} alt='Social Icon' />
+            {CONTENT.map(({ img, link }, y) => (
+                <div className={socialStyles.icon} key={y}>
+                    <a href={link} target='_blank'>
+                        <Image
+                            src={img}
+                            height={24}
+                            width={24}
+                            alt='Social Icon'
+                        />
+                    </a>
                 </div>
             ))}
         </div>
@@ -22,15 +29,19 @@ const SocialIcons = () => {
 const CONTENT = [
     {
         img: Twitter,
+        link: '#',
     },
     {
         img: Discord,
+        link: '#',
     },
     {
         img: Reddit,
+        link: '#',
     },
     {
         img: Instagram,
+        link: '#',
     },
 ];
 

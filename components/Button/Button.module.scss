@@ -1,5 +1,6 @@
 .primary-btn,
-.secondary-btn {
+.secondary-btn,
+.disabled-btn {
     border-radius: 50px;
     display: inline-block;
     font-family: 'Work Sans', sans-serif;
@@ -36,8 +37,8 @@
     }
 }
 
-button:disabled, button[disabled]{
-    border: 1px solid #999999;
-    background-color: #cccccc;
-    color: #666666;
-}
+.disabled-btn {
+    background-color: #ccc;
+    border: 1px solid #999;
+    color: #666;
+} 

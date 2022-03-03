@@ -23,7 +23,7 @@ const Form = () => {
                 </label>
                 <input
                     id='submission'
-                    placeHolder='Enter email address'
+                    placeholder='Enter email address'
                     name='email'
                     type='email'
                     required

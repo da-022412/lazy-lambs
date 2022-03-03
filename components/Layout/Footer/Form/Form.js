@@ -17,12 +17,7 @@ const Form = () => {
             <Heading style='heading-5' level='5'>
                 Get Updates
             </Heading>
-            <form
-                onSubmit={handleSubmit}
-                action='https://formspree.io/f/mqknbbda'
-                method='POST'
-                className={formStyles.form}
-            >
+            <form onSubmit={handleSubmit} className={formStyles.form}>
                 <label htmlFor='submission' hidden>
                     Email
                 </label>

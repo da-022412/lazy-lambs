@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import '../assets/styles/reset.css';
 
 import Layout from '../components/Layout';
@@ -18,6 +20,9 @@ function MyApp({ Component, pageProps }) {
                     text-decoration: none;
                 }
             `}</style>
+            <Head>
+                <title>Lazy Lamb</title>
+            </Head>
             <Layout>
                 <Component {...pageProps} />
             </Layout>

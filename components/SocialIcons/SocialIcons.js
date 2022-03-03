@@ -12,7 +12,7 @@ const SocialIcons = () => {
         <div className={`${socialStyles['icons-container']}`}>
             {CONTENT.map(({ img, link }, y) => (
                 <div className={socialStyles.icon} key={y}>
-                    <a href={link} target='_blank'>
+                    <a href={link} target='_blank' rel='noreferrer'>
                         <Image
                             src={img}
                             height={24}
@@ -29,7 +29,7 @@ const SocialIcons = () => {
 const CONTENT = [
     {
         img: Twitter,
-        link: 'https://twitter.com/',
+        link: '#',
     },
     {
         img: Discord,

@@ -16,7 +16,7 @@ const ContactInfo = () => {
 
 const CONTENT = {
     smartContract:
-        'Verified Smart Contract: <span style="color: #ffea0e">[Enter Address here]</span>',
+        'Verified Smart Contract <span style="color: #ffea0e"></span>',
     terms: '<span style="color: #c4c4c4">© 2022 MetaSpeed, Inc. All rights reserved.</span>',
 };
 

@@ -29,19 +29,19 @@ const SocialIcons = () => {
 const CONTENT = [
     {
         img: Twitter,
-        link: '#',
+        link: 'https://twitter.com/lazylambnft',
     },
     {
         img: Discord,
-        link: '#',
+        link: 'https://discord.gg/yYrQd6dzTD',
     },
     {
         img: Reddit,
-        link: '#',
+        link: 'https://www.reddit.com/r/lazylambnft',
     },
     {
         img: Instagram,
-        link: '#',
+        link: 'https://www.instagram.com/lazylambnft',
     },
 ];
 

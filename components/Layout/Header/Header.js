@@ -25,7 +25,7 @@ const Header = () => {
                     </Link>
                 </figure>
                 <Nav />
-                <Button style='primary-btn' link='#'>
+                <Button style='primary-btn' link='#' disabled>
                     Become a Member
                 </Button>
             </div>

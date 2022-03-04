@@ -37,7 +37,7 @@ const CONTENT = {
         },
         {
             title: 'How do I participate in the events and experiences?',
-            copy: 'Members can access our complete event schedule and request passes online via our private member portal. Events passes are available on a first-come, first-served basis for all active members. Members must verify ownership with the wallet where the Lazy Lamb tokens are stored before attending an event.',
+            copy: 'Members can access our complete event schedule and request passes online via our private member portal. Event passes are available on a first-come, first-served basis for all active members. Members must verify ownership with the wallet where the Lazy Lamb tokens are stored before attending an event.',
         },
         {
             title: 'Will the events and experiences be available for non-members?',
@@ -45,7 +45,7 @@ const CONTENT = {
         },
         {
             title: 'When will the virtual marketplace and racing game be available?',
-            copy: 'Late 2022 or early 2023, depending on completing the roadmap.',
+            copy: 'Late 2022 or early 2023, depending on the completition of our roadmap.',
         },
     ],
     more: 'More questions? <a href="#">Visit our Discord channel.</a>',

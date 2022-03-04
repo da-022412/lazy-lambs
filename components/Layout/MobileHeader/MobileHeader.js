@@ -94,7 +94,7 @@ const MobileHeader = () => {
                             </div>
                         ))}
                         <div className={`${navStyles['btn-container']}`}>
-                            <Button style='primary-btn' link='#'>
+                            <Button style='primary-btn' link='#' disabled>
                                 Become a Member
                             </Button>
                         </div>

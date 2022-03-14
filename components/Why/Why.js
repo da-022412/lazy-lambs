@@ -10,8 +10,8 @@ const CONTENT = {
             text: 'Your token can be sold or transferred to others at any time. The NFT structure creates a unique new opportunity to try alternative economic models, which will allow us to create a loyal, engaged member community, delivering exceptional and sustainable experiences for our members for the many years to come.',
         },
     ],
-    btn: 'Become a Member',
-    link: '#',
+    btn: 'Join the Whitelist',
+    link: 'https://whitelist.lazylamb.com/',
     img: Img,
 };
 

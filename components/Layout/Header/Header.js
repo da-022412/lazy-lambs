@@ -25,8 +25,8 @@ const Header = () => {
                     </Link>
                 </figure>
                 <Nav />
-                <Button style='primary-btn' link='#' disabled>
-                    Become a Member
+                <Button style='primary-btn' link='https://whitelist.lazylamb.com/'>
+                    Join the Whitelist
                 </Button>
             </div>
         </header>

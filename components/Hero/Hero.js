@@ -19,8 +19,8 @@ const Hero = () => {
                             The World’s First NFT Car Club & Marketplace
                         </Heading>
                         <div className={`${heroStyles['hero-btns']}`}>
-                            <Button style='primary-btn' link='#' disabled>
-                                Become a Member
+                            <Button style='primary-btn' link='https://whitelist.lazylamb.com/' >
+                                Join the Whitelist
                             </Button>
                             <Button style='secondary-btn' link='https://discord.gg/yYrQd6dzTD'>
                                 Join the Discord

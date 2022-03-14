@@ -29,8 +29,8 @@ const CONTENT = {
             item: 'Complete daily challenges to earn rewards',
         },
     ],
-    btn: 'Become a Member',
-    link: '#',
+    btn: 'Join the Whitelist',
+    link: 'https://whitelist.lazylamb.com/',
     img: Img,
 };
 

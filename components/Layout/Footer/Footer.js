@@ -16,14 +16,10 @@ const Footer = () => {
                     <Form />
                     <ContactInfo />
                 </div>
-            </Container>
-
-            <Container>    
-                <div className={`${footerStyles['footer-container2']}`}>
-                    <Image src={Logo} height={52} width={200} alt='Metaspeed' />
+                <div>
+                    <Image src={Logo} height={79} width={301} alt='Metaspeed' />
                 </div>
             </Container>
-
         </footer>
     );
 };

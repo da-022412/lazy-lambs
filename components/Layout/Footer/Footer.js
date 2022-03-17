@@ -16,8 +16,9 @@ const Footer = () => {
                     <Form />
                     <ContactInfo />
                 </div>
-                <div>
-                    <Image src={Logo} height={79} width={301} alt='Metaspeed' />
+
+                <div style='text-align:center'>
+                    <Image src={Logo} height={52} width={200} alt='Metaspeed' />
                 </div>
             </Container>
         </footer>

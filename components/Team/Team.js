@@ -14,7 +14,7 @@ import Lenny from '../../assets/images/Lenny.webp';
 import YoungHero from '../../assets/images/logo_younghero.webp';
 import Atlas from '../../assets/images/logo_atlas.webp';
 import Myosin from '../../assets/images/myosin-logo.webp';
-import LamboBroward from '../../assets/images/lambobroward.webp';
+import LamboBroward2 from '../../assets/images/lambobroward2.webp';
 
 const Team = () => {
     return (
@@ -112,7 +112,7 @@ const brands = [
         width: 216,
     },
     {
-        img: LamboBroward,
+        img: LamboBroward2,
         title: 'Official Lamborghini Dealer',
         height: 55,
         width: 250,

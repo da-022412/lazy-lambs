@@ -9,7 +9,7 @@ import BodyText from '../BodyText';
 import LamboImg from '../../assets/images/3lambos.webp';
 
 const CONTENT = {
-    list: '<span style="font-size:1.5rem;"><b><span style="color:#ffea0e;">50%</span> Lamborghini Urus<br><span style="color:#ffea0e;">70%</span> Lamborghini Urus<br><span style="color:#ffea0e;">80%</span> Lamborghini Huracán</b></span>',
+    list: '<span style="font-size:1.5rem;"><b><span style="color:#ffea0e;">50%</span> Lamborghini Urus<br><span style="color:#ffea0e;">70%</span> Lamborghini Urus<br><span style="color:#ffea0e;">100%</span> Lamborghini Huracán</b></span>',
 };
 
 const Lambo = () => {

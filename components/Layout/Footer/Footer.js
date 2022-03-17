@@ -16,8 +16,8 @@ const Footer = () => {
                     <Form />
                     <ContactInfo />
                 </div>
-                <div>
-                    <Image src={Logo} height={79} width={301} alt='Metaspeed' />
+                <div className={`${footerStyles['footer-copyright']}`}>
+                    <Image src={Logo} height={52} width={200} alt='Metaspeed' />
                 </div>
             </Container>
         </footer>

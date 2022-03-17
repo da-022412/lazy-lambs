@@ -8,6 +8,11 @@
     display: flex;
     justify-content: space-between;
 
+
+.footer-copyright {
+text-align: center;    
+}
+
     @media(max-width: 980px) {
         flex-wrap: wrap;
         gap: 3.75rem;

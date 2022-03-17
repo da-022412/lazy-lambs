@@ -19,7 +19,6 @@ const Footer = () => {
 
                 <div className={`${footerStyles['footer-container2']}`}>
                     <Image src={Logo} height={52} width={200} alt='Metaspeed' />
-                    &copy; 2022 MetaSpeed, Inc. All rights reserved.
                 </div>
             </Container>
         </footer>

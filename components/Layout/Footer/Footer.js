@@ -17,7 +17,7 @@ const Footer = () => {
                     <ContactInfo />
                 </div>
 
-                <div>
+                <div className={`${footerStyles['footer-container2']}`}>
                     <Image src={Logo} height={52} width={200} alt='Metaspeed' />
                 </div>
             </Container>

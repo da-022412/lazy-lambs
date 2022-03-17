@@ -7,18 +7,17 @@
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
-}
-
-.footer-container2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
 
     @media(max-width: 980px) {
         flex-wrap: wrap;
         gap: 3.75rem;
         justify-content: center;
     }
+}
+
+.footer-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text
 }

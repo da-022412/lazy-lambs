@@ -114,8 +114,8 @@ const brands = [
     {
         img: LamboBroward2,
         title: 'Official Lamborghini Dealer',
-        height: 113,
-        width: 250,
+        height: 99,
+        width: 220,
     },
 
 ];

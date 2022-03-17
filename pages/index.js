@@ -22,9 +22,8 @@ export default function Home() {
                 <Club />
             </div>
             <Divider />
-            <Marketplace />
-            <Divider />
             <Game />
+            <Marketplace />
             <Divider />
             <Lambs />
             <Divider />

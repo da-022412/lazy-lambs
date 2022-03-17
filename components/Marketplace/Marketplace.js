@@ -3,7 +3,7 @@ import Columns from '../Columns';
 import Img from '../../assets/images/lazylamb_marketplace.webp';
 
 const CONTENT = {
-    title: 'The Marketplace',
+
     copy: [
         {
             text: 'Our vision is to open the first NFT marketplace where anyone can buy, sell, or trade digital vehicles in a fully immersive and interactive 3D environment. All transactions are recorded in the Ethereum blockchain using smart contracts to verify and manage the ownership and history of the items.',

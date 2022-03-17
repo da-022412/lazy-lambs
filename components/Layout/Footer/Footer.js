@@ -14,8 +14,10 @@ const Footer = () => {
             <Container>
                 <div className={`${footerStyles['footer-container']}`}>
                     <Form />
-                    <Image src={Logo} height={79} width={301} alt='Metaspeed' />
                     <ContactInfo />
+                </div>
+                <div>
+                    <Image src={Logo} height={79} width={301} alt='Metaspeed' />
                 </div>
             </Container>
         </footer>

@@ -13,7 +13,7 @@ const CONTENT = {
         },
         {
             heading: 'Driving Experiences',
-            copy: 'Enjoy a wide variety of car-themed events, such as track days, automotive premiers, learning classes, member drives, and other member-only curated experiences that resonate with the automotive enthusiast inside all of us.',
+            copy: 'Enjoy a wide variety of car-themed events, such as track days, automotive premiers, learning classes, car drives, and other member-only curated experiences that resonate with the automotive enthusiast inside all of us.',
         },
     ],
 };

@@ -7,6 +7,7 @@ import Heading from '../Heading';
 import BodyText from '../BodyText';
 
 import LamboImg from '../../assets/images/3lambos.webp';
+import LamboBroward3Img from '../../assets/images/lambobroward3.webp';
 
 const CONTENT = {
     list: '<span style="font-size:1.5rem;"><b><span style="color:#ffea0e;">50%</span> Lamborghini Urus<br><span style="color:#ffea0e;">70%</span> Lamborghini Urus<br><span style="color:#ffea0e;">100%</span> Lamborghini Huracán</b></span>',
@@ -17,6 +18,18 @@ const Lambo = () => {
         <Container>
             <div className={`${lamboStyles['lambo-columns']}`}>
                 <div className={`${lamboStyles['lambo-img-container']}`}>
+
+                    <figure className={`${lamboStyles['LamboBroward3Img-img']}`}>
+                        <Image
+                            src={LamboBroward3Img}
+                            height={64}
+                            width={252}
+                            alt='Lamborghini Broward - Official Supply Partner'
+                        />
+                    </figure>
+
+
+
                     <figure className={`${lamboStyles['lambo-img']}`}>
                         <Image
                             src={LamboImg}

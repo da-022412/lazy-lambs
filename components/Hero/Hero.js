@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className={`${heroStyles['hero-container']}`}>
                     <div className={`${heroStyles['heading-container']}`}>
                         <Heading style='heading-1' level='1'>
-                            The World’s First NFT Car Club & Marketplace
+                            The World’s First NFT Luxury Car Club
                         </Heading>
                         <div className={`${heroStyles['hero-btns']}`}>
                             <Button style='primary-btn' link='https://whitelist.lazylamb.com/' >

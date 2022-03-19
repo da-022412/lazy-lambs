@@ -41,21 +41,22 @@ const Lambo = () => {
                 </div>
                 <div className={`${lamboStyles['lambo-content']}`}>
                     <Heading style='heading-2' level='2'>
-                        The Big Triple Lamb-o Giveaway
+                        The Triple Lambo NFT Sweepstakes
                     </Heading>
                     <BodyText>
                         Enjoy the high-end lifestyle with the ultimate symbol of
                         prestige and quality.
                     </BodyText>
                     <BodyText>
-                        We’re giving away three Lamborghini vehicles, each
-                        unlocked by hitting a roadmap percentage target sell:
+                        
+                        LazyLamb is giving back to the community while democratizing access to luxury
+
+                        We’re giving away three very special NFTs that are redeemable for real Lamborghini vehicles, each unlocked by hitting one of our roadmap percentage targets:
                     </BodyText>
                     <BodyText>{CONTENT.list}</BodyText>
                     <BodyText>
-                        Each membership token is a chance to win. The lucky
-                        winners will be selected from an RNG hosted in our Smart
-                        Contract for 100% transparency.
+                        Each Lazy token in the collection is automatically entered for chance to win!
+                        Winners will be selected from a random sweepstakes drawing on Chainlink with 100% transparency.
                     </BodyText>
                 </div>
             </div>

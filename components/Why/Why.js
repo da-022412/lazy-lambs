@@ -5,11 +5,6 @@ import Columns from '../Columns';
 const CONTENT = {
     title: 'Why Lazy Lamb NFTs?',
     subTitle: 'Giving back to the community while democratizing access to luxury',
-    copy: [
-        {
-            text: 'Premium car club with real-life events to build an actual community of car enthusiast',
-        },
-    ],
 
 
     list: [

@@ -49,11 +49,8 @@ const Lambo = () => {
                     </BodyText>
 
                     <BodyText>
-                        LazyLamb is giving back to the community while democratizing access to luxury.
-                    </BodyText>    
-
-                    <BodyText>
-                        We’re giving away three very special NFTs that are redeemable for real Lamborghini vehicles, each unlocked by hitting one of our roadmap percentage targets:
+                        LazyLamb is giving back to the community while democratizing access to luxury. 
+                        We’re giving away three very special NFTs that are redeemable for real Lamborghini vehicles, With each sweepstake unlocked by hitting one of our roadmap percentage targets:
                     </BodyText>
                     <BodyText>{CONTENT.list}</BodyText>
                     <BodyText>

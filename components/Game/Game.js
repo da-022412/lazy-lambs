@@ -8,13 +8,10 @@ const CONTENT = {
         'Live out your dreams of racing exotic vehicles for real prizes on our play-to-earn (P2E) racing game. Race your own NFT supercar against other members to earn rewards. ',
     list: [
         {
-            item: 'Buy, sell and trade digital vehicles from the marketplace',
+            item: 'Buy, sell and trade NFT supercars from the marketplace',
         },
         {
             item: 'Race other members for fun or compete for real prizes',
-        },
-        {
-            item: 'Your starter vehicle is the same car from your Lazy Lamb artwork',
         },
         {
             item: 'Take your machine for a test drive on the virtual track ',

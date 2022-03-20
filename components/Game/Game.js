@@ -14,9 +14,6 @@ const CONTENT = {
             item: 'Race other members for fun or compete for real prizes',
         },
         {
-            item: 'Take your machine for a test drive on the virtual track ',
-        },
-        {
             item: 'View and manage your collection in your personal garage',
         },
         {

@@ -65,7 +65,7 @@ const Information = () => {
                     </BodyText>
 
                     <BodyText>
-                        The project also includes play-to-earn (P2E) racing game 
+                        The project also includes a play-to-earn (P2E) racing game 
                         where members can race a supercar against other members to 
                         earn rewards and a virtual marketplace to buy, sell, and 
                         trade their NFT vehicles.

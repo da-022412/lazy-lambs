@@ -48,7 +48,7 @@ const CONTENT = {
             copy: 'Late 2022 or early 2023, depending on the completition of our roadmap.',
         },
     ],
-    more: 'More questions? <a href="#">Visit our Discord channel.</a>',
+    more: 'More questions? <a href="https://discord.gg/yYrQd6dzTD" target="_blank">Visit our Discord channel.</a>',
 };
 
 const Faqs = () => {

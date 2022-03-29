@@ -6,7 +6,7 @@ import BodyText from '../../../BodyText';
 import Heading from '../../../Heading';
 
 const Form = () => {
-    const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM);
+    const [state, handleSubmit] = useForm('myyojjde');
 
     if (state.succeeded) {
         return <BodyText>Thanks for your submission!</BodyText>;

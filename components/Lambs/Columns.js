@@ -32,12 +32,8 @@ const Columns = ({ items }) => {
                 <div className={`${columnsStyles['column-content']}`}>
                     <Swiper navigation={true} modules={[Navigation]}>
                         {items.slide.map(({ img }, index) => (
-                            <SwiperSlide>
-                                <Image
-                                    src={img}
-                                    alt='Lazy Lambs NFT'
-                                    key={index}
-                                />
+                            <SwiperSlide key={index}>
+                                <Image src={img} alt='Lazy Lambs NFT' />
                             </SwiperSlide>
                         ))}
                     </Swiper>

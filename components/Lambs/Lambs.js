@@ -1,6 +1,11 @@
-import Columns from '../Columns';
+import Columns from './Columns';
 
-import Img from '../../assets/images/lazy-lamb-black-lambo.webp';
+import ImgOne from '../../assets/images/lazy-lamb-01.webp';
+import ImgTwo from '../../assets/images/lazy-lamb-02.webp';
+import ImgThree from '../../assets/images/lazy-lamb-03.webp';
+import ImgFour from '../../assets/images/lazy-lamb-04.webp';
+import ImgFive from '../../assets/images/lazy-lamb-05.webp';
+import ImgSix from '../../assets/images/lazy-lamb-06.webp';
 
 const CONTENT = {
     title: 'The Lambs',
@@ -12,7 +17,26 @@ const CONTENT = {
             text: 'The complete collection is stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a href="#">View our provenance record.</a>',
         },
     ],
-    img: Img,
+    slide: [
+        {
+            img: ImgOne,
+        },
+        {
+            img: ImgTwo,
+        },
+        {
+            img: ImgThree,
+        },
+        {
+            img: ImgFour,
+        },
+        {
+            img: ImgFive,
+        },
+        {
+            img: ImgSix,
+        },
+    ],
 };
 
 const Lambs = () => {

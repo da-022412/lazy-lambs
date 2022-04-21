@@ -20,6 +20,11 @@ const CONTENT = {
             text: 'The complete collection is stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. <a href="#">View our provenance record.</a>',
         },
     ],
+
+    btn: 'Join the Whitelist',
+    link: 'https://whitelist.lazylamb.com/',
+
+
     slide: [
         {
             img: ImgOne,

@@ -24,8 +24,8 @@ export default function Home() {
             <Divider />
             <Lambs />
             <Divider />
-           // <Game />
-           // <Marketplace />
+            <Game />
+            <Marketplace />
             <Divider />
             <Lambo />
             <Divider />

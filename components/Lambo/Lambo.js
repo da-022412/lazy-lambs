@@ -6,7 +6,7 @@ import Container from '../Container';
 import Heading from '../Heading';
 import BodyText from '../BodyText';
 
-import LamboImg from '../../assets/images/3lambos.webp';
+import LamboImg from '../../assets/images/4lambos.webp';
 import LamboBroward3Img from '../../assets/images/lambobroward3.webp';
 
 const CONTENT = {

@@ -43,10 +43,7 @@ const CONTENT = {
             title: 'Will the events and experiences be available for non-members?',
             copy: 'Nope. Non-members will only have access to Lazy Lamb events if they are a guest of an active member. Members can bring one guest to all parties, meetings, and social events.',
         },
-        {
-            title: 'When will the virtual marketplace and racing game be available?',
-            copy: 'Late 2022 or early 2023, depending on the completition of our roadmap.',
-        },
+
     ],
     more: 'More questions? <a href="https://discord.gg/yYrQd6dzTD" target="_blank">Visit our Discord channel.</a>',
 };

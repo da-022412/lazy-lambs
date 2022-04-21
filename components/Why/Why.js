@@ -18,9 +18,6 @@ const CONTENT = {
             item: 'As the treasury grows so do the rewards. A new car is rewarded to the community for every 4000 eth traded.',
         },
         {
-            item: 'Fun Play to earn game, that ties not only to real income for the players but will also drive rewards and philanthropy post-launch.',
-        },
-        {
             item: 'Bring underserved kids into the luxury car community to present a new view on lifestyle, access, and mentorship.',
         },
         {

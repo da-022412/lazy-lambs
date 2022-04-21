@@ -3,26 +3,12 @@ import Columns from '../Columns';
 import Img from '../../assets/images/lazylamb_game.webp';
 
 const CONTENT = {
-    title: 'The Game',
+    title: 'Motorsport Racing Tickets',
     subTitle:
-        'Live out your dreams of racing exotic vehicles for real prizes on our play-to-earn (P2E) racing game. Race your own NFT supercar against other members to earn rewards. ',
-    list: [
-        {
-            item: 'Buy, sell and trade NFT supercars from the marketplace',
-        },
-        {
-            item: 'Race other members for fun or compete for real prizes',
-        },
-        {
-            item: 'View and manage your collection in your personal garage',
-        },
-        {
-            item: 'Join virtual car meets and hangouts',
-        },
-        {
-            item: 'Complete daily challenges to earn rewards',
-        },
-    ],
+        'Witness the action of the world’s fastest machines in person.',
+    
+    text: 'We’ll be giving 400 Tickets for motorsport racing events like Formula 1, Nascar, Super Trofeo, and others. Winners will get two tickets each, with 100 winners per year.',
+
     btn: 'Join the Whitelist',
     link: 'https://whitelist.lazylamb.com/',
     img: Img,

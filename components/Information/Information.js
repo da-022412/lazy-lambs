@@ -61,14 +61,7 @@ const Information = () => {
                         Token ownership grants access to our private car club,
                         with exclusive member-only benefits to experience the
                         high-end automotive lifestyle, including the chance to
-                        win three real-life supercars!
-                    </BodyText>
-
-                    <BodyText>
-                        The project also includes a play-to-earn (P2E) racing game 
-                        where members can race a supercar against other members to 
-                        earn rewards and a virtual marketplace to buy, sell, and 
-                        trade their NFT vehicles.
+                        win four real-life supercars!
                     </BodyText>
 
                 </div>

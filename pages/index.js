@@ -2,7 +2,6 @@ import Hero from '../components/Hero';
 import Information from '../components/Information';
 import Divider from '../components/Divider';
 import Club from '../components/Club';
-import Marketplace from '../components/Marketplace';
 import Game from '../components/Game';
 import Lambs from '../components/Lambs';
 import Lambo from '../components/Lambo';
@@ -25,7 +24,6 @@ export default function Home() {
             <Lambs />
             <Divider />
             <Game />
-            <Marketplace />
             <Divider />
             <Lambo />
             <Divider />

@@ -68,10 +68,6 @@ const Lambo = () => {
         </Container>
     );
 
-
-    btn: 'Join the Whitelist',
-    link: 'https://whitelist.lazylamb.com/',
-
 };
 
 export default Lambo;
